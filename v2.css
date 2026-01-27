@@ -56,7 +56,7 @@ body {
   background-color: rgba(252, 164, 36, 0.6);
   position: absolute;
   top: 55px;
-  right: 80px;
+  right: 30px;
   transform: rotate(-15deg);
   z-index: 0;
 }
@@ -414,8 +414,8 @@ body {
 
 .tab {
   padding: 14px 0px;
-  margin-right: 16px;
-  font-size: 9px;
+  font-size: 11px;
+  margin-right: 35px;
   font-weight: 500;
   color: var(--text-muted);
   cursor: pointer;
@@ -485,7 +485,7 @@ body {
 }
 
 .section-header h3 {
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.3px;
   color: var(--dark);
@@ -506,7 +506,7 @@ body {
 }
 
 .family-label {
-  font-size: 7px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.3px;
   margin-bottom: 8px;
@@ -534,7 +534,7 @@ body {
 }
 
 .about-me h3 {
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.3px;
   margin-bottom: 12px;
@@ -546,24 +546,19 @@ body {
 
 .about-label {
   display: block;
-  font-size: 7px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.3px;
-  margin-bottom: 2px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .about-value {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--dark);
   font-weight: 400;
 }
 
-.about-plan {
-  font-weight: 600;
-  color: var(--primary-green);
-}
 
 .center-content {
   background: #fafafa;
