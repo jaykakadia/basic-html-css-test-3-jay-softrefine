@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --primary-yellow: #fca424;
   --primary-green: #0dd39d;
@@ -13,6 +12,7 @@
   --light-gray: #f8f8f8;
   --text-muted: #999;
   --text-light: #bbb;
+  --primary-blue: #0066ff8f;
 }
 
 body {
@@ -109,6 +109,7 @@ body {
   height: 160px;
   width: 160px;
   border: 10px solid var(--gray);
+  opacity: 0.3;
   position: absolute;
   bottom: -85px;
   right: -35px;
@@ -396,6 +397,7 @@ body {
   padding: 0 24px;
   background: var(--white);
   border-bottom: 1px solid #eee;
+  align-self: start;
 }
 
 .tabs {
@@ -519,14 +521,13 @@ body {
 
 .about-me {
   padding-top: 16px;
-  border-top: 1px solid #eee;
 }
 
 .about-me h3 {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.3px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 
 .about-item {
@@ -569,6 +570,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* padding-top: 0;   */
 }
 .new-claims {
   margin-left: 14px;
@@ -591,7 +593,7 @@ font-family: "Inter", sans-serif;
 
 .stat-label {
   display: block;
-  font-size: 7px;
+  font-size: 10px;
   letter-spacing: 0.8px;
   /* color: var(--text-muted); */
   margin-bottom: 10px;
@@ -725,6 +727,7 @@ font-family: "Inter", sans-serif;
   padding: 20px 16px;
   border-left: 1px solid #eee;
   background: var(--white);
+  border-radius: 10px;
 }
 
 .activity-sidebar h3 {
@@ -767,10 +770,12 @@ font-family: "Inter", sans-serif;
 
 .activity-dot.green {
   background: var(--primary-green);
+  opacity: 0.6;
 }
 
 .activity-dot.yellow {
   background: var(--primary-yellow);
+  opacity: 0.6;
 }
 
 .activity-dot.orange {
@@ -797,6 +802,10 @@ font-family: "Inter", sans-serif;
 }
 .center-content {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 16px;  
 }
+.activity-dot.blue {
+  background: var(--primary-blue);
+}
+
