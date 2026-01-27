@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -99,13 +99,13 @@ body {
   height: 14px;
   background-color: var(--primary-green);
   position: absolute;
-  opacity: 0.8;
+  opacity:0.8;
   bottom: -15px;
   left: 25px;
   z-index: 0;
 }
 
-.righ-bottom-grey-diamond {
+.righ-bottom-grey-diamond{
   height: 160px;
   width: 160px;
   border: 10px solid var(--gray);
@@ -355,7 +355,6 @@ body {
   font-weight: 500;
   margin-bottom: 2px;
 }
-
 .completion-text p {
   font-size: 9px;
   color: rgba(255, 255, 255, 0.5);
@@ -375,9 +374,14 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    gap:20px;
+}
 .tabs-nav {
-  display: flex;
+  grid-column: 2/-1;
+    display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
@@ -432,11 +436,9 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-
-.claim-btn:hover {
-  background: #e5941f;
+.sidebar{
+    grid-row: 1/-3;
 }
-
 .main-content {
   display: grid;
   grid-template-columns: 190px 1fr 185px;
@@ -473,6 +475,9 @@ body {
   font-size: 12px;
   cursor: pointer;
   letter-spacing: 1px;
+}
+.center-content{
+    grid-column: 2/3;
 }
 
 .family-group {
@@ -725,8 +730,6 @@ body {
 .pay-btn:hover {
   background: #0bc08a;
 }
-
-/* ===== Activity Sidebar ===== */
 .activity-sidebar {
   padding: 20px 16px;
   border-left: 1px solid #eee;
@@ -801,4 +804,8 @@ body {
 .activity-time {
   font-size: 7px;
   color: var(--text-light);
+}
+.center-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
