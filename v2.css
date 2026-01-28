@@ -885,15 +885,24 @@ font-family: "Inter", sans-serif;
 .activity-dot.blue {
   background: var(--primary-blue);
 }
-/* .avatar-wrap {
+
+
+
+
+
+
+
+
+.avatar-wrap {
+  margin-left: -12px;
   position: relative;
   width: 30px;
   height: 30px;
 }
 
 .avatar-wrap img {
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -902,17 +911,18 @@ font-family: "Inter", sans-serif;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(13, 211, 157, 0.5); /* green with 0.5 opacity */
-  /*
+  width: 30px;
+  height: 30px;
+  background: rgba(13, 211, 158, 0.788); /* green with 0.5 opacity */
+  
   color: #fff;
   font-size: 9px;
   font-weight: 600;
   border-radius: 50%;
+  border: 2px solid var(--white);
 
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
