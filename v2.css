@@ -258,7 +258,7 @@ body {
 .hero-left {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 38px;
   gap: 50px;
 }
 
@@ -384,9 +384,13 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
 }
+.complete-btn:hover{
+  background: var(--primary-yellow);
+  opacity: 0.8;
+}
 .grid {
   display: grid;
-  grid-template-columns: 1.27fr 4fr;
+grid-template-columns: 1.5fr 4fr;
 
 }
 .tabs-nav {
@@ -432,6 +436,10 @@ body {
   width: 12px;
   height: 12px;
 }
+.tab:hover {
+  color: var(--dark);
+  border-bottom-color: var(--primary-yellow);
+}
 
 .claim-btn {
   background: var(--primary-green);
@@ -444,6 +452,10 @@ body {
   letter-spacing: 0.3px;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+.claim-btn:hover{
+  background: var(--primary-green);
+  opacity: 0.8;
 }
 .sidebar {
   grid-row: 1/-3;
@@ -461,7 +473,7 @@ body {
   background: var(--white);
   /* margin-top: 25px; */
   padding-top: 45px;
-  padding-left: 47px;
+      padding-left: 65px;
 }
 
 .sidebar-section {
@@ -760,6 +772,10 @@ body {
   transition: all 0.2s ease;
   margin-top: auto;
   margin-bottom: 5px;
+}
+.pay-btn:hover {
+  background: var(--primary-yellow);
+  opacity: 0.8;
 }
 .main-activity-section {
   padding: 20px 16px;
