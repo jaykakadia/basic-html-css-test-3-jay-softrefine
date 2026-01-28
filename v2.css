@@ -132,7 +132,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 30px;
+  padding: 15px 60px;
   position: relative;
   z-index: 2;
 }
@@ -250,7 +250,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 20px 60px;
   position: relative;
   z-index: 2;
 }
@@ -258,7 +258,8 @@ body {
 .hero-left {
   display: flex;
   align-items: center;
-  margin-left: 38px;
+      margin-left: 5px;
+
   gap: 50px;
 }
 
@@ -390,7 +391,7 @@ body {
 }
 .grid {
   display: grid;
-grid-template-columns: 1.5fr 4fr;
+grid-template-columns: 1.4fr 4fr;
 
 }
 .tabs-nav {
@@ -403,6 +404,7 @@ grid-template-columns: 1.5fr 4fr;
   background: var(--white);
   border-bottom: 1px solid #eee;
   align-self: start;
+  padding-right: 60px;
 }
 
 .tabs {
@@ -431,7 +433,9 @@ grid-template-columns: 1.5fr 4fr;
   border-bottom-color: var(--primary-yellow);
   font-weight: 600;
 }
-
+.tab:last-child{
+  margin-right: 0px;
+}
 .tab-icon {
   width: 12px;
   height: 12px;
@@ -553,7 +557,7 @@ grid-template-columns: 1.5fr 4fr;
   letter-spacing: 0.3px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
 }
 
 .about-value {
@@ -918,7 +922,7 @@ grid-template-columns: 1.5fr 4fr;
 .parent {
   margin-top:40px;
   display: grid;
-  padding-right: 30px;
+  padding-right: 60px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 16px;
