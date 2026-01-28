@@ -132,7 +132,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 60px;
+  padding: 15px 45px;
   position: relative;
   z-index: 2;
 }
@@ -250,7 +250,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 20px 45px;
   position: relative;
   z-index: 2;
 }
@@ -391,7 +391,7 @@ body {
 }
 .grid {
   display: grid;
-grid-template-columns: 1.4fr 4fr;
+grid-template-columns: 1.25fr 4fr;
 
 }
 .tabs-nav {
@@ -404,7 +404,7 @@ grid-template-columns: 1.4fr 4fr;
   background: var(--white);
   border-bottom: 1px solid #eee;
   align-self: start;
-  padding-right: 60px;
+  padding-right: 45px;
 }
 
 .tabs {
@@ -477,7 +477,7 @@ grid-template-columns: 1.4fr 4fr;
   background: var(--white);
   /* margin-top: 25px; */
   padding-top: 45px;
-      padding-left: 65px;
+      padding-left: 47px;
 }
 
 .sidebar-section {
@@ -922,7 +922,7 @@ grid-template-columns: 1.4fr 4fr;
 .parent {
   margin-top:40px;
   display: grid;
-  padding-right: 60px;
+  padding-right: 45px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 16px;
